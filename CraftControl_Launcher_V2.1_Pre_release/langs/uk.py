@@ -1,0 +1,176 @@
+# Мова: Українська
+# Language: Ukrainian
+# Додайте цей файл у папку langs/ — програма підхопить його автоматично
+
+LANG_NAME = "Українська"
+LANG_CODE = "uk"
+
+T = {
+    # App
+    "app_name": "CraftControl",
+    "app_ready": "Готовий. Оберіть сервер та натисніть Запустити.",
+
+    # Tabs
+    "tab_console": "⬛ Консоль",
+    "tab_servers": "🖥  Сервери",
+    "tab_players": "👥 Гравці",
+    "tab_kernels": "⬇ Ядра та Моди",
+    "tab_props":   "⚙ Properties",
+    "tab_wiki":    "📖 Wiki",
+    "tab_settings":"⚙ Налаштування",
+
+    # Toolbar
+    "toolbar_open_dir":  "📁 Відкрити папку",
+    "toolbar_playit":    "🌐 Playit.gg",
+    "toolbar_papermc":   "📄 PaperMC",
+    "status_online":     "🟢 Сервер онлайн",
+    "status_offline":    "⚫ Сервер офлайн",
+
+    # Console
+    "console_placeholder": "Введіть команду... (наприклад: /say Hello)",
+    "console_send":        "▶ Відправити",
+    "console_clear":       "🗑 Очистити",
+    "console_server_offline": "Сервер не запущено",
+
+    # Servers
+    "servers_title":     "Мої сервери",
+    "servers_add":       "+ Додати",
+    "servers_del":       "✕ Видалити",
+    "servers_save":      "💾 Зберегти",
+    "servers_start":     "▶ Запустити",
+    "servers_stop":      "⏹ Зупинити",
+    "servers_settings":  "Налаштування сервера",
+    "servers_name":      "Назва:",
+    "servers_jar":       "Jar файл:",
+    "servers_dir":       "Директорія:",
+    "servers_ram":       "RAM:",
+    "servers_java":      "Java:",
+    "servers_port":      "Порт:",
+    "servers_eula":      "Прийняти EULA",
+    "servers_eula_btn":  "Створити eula.txt",
+    "servers_new_name":  "Нова назва сервера:",
+    "servers_del_confirm": "Видалити цей сервер зі списку?",
+    "servers_eula_done": "eula.txt створено:",
+    "servers_saved":     "Сервер збережено:",
+    "servers_no_jar":    "JAR файл не знайдено. Вкажіть правильний шлях.",
+    "servers_starting":  "Запускаємо",
+    "servers_stopped":   "Сервер зупинено",
+    "servers_select":    "Оберіть сервер",
+    "servers_no_dir":    "Спочатку вкажіть директорію сервера",
+    "servers_rcon_group": "RCON (отримання онлайн гравців)",
+    "servers_rcon_host": "Хост:",
+    "servers_rcon_port": "RCON порт:",
+    "servers_rcon_pass": "Пароль RCON:",
+    "servers_rcon_hint": "Увімкніть у server.properties: enable-rcon=true, rcon.password=...",
+    "servers_api_group": "Власний API сервера",
+    "servers_api_url":   "API URL:",
+    "servers_api_key":   "API ключ:",
+    "servers_api_hint":  "REST API для отримання даних сервера. Напр.: http://localhost:8080",
+
+    # Players
+    "players_nick":      "Нікнейм гравця...",
+    "players_add":       "+ Додати",
+    "players_rank":      "Роль",
+    "players_status":    "Статус",
+    "players_ip":        "IP",
+    "players_actions":   "Дії",
+    "players_kick":      "⚡ Kick",
+    "players_ban":       "🔨 Ban",
+    "players_op":        "⭐ OP",
+    "players_tp":        "🌐 TP",
+    "players_online":    "Онлайн",
+    "players_offline":   "Офлайн",
+    "players_refresh":   "🔄 Оновити",
+    "players_added":     "Гравця додано до бази:",
+    "players_server_offline": "Сервер офлайн. Команда:",
+    "players_rcon_error": "RCON помилка:",
+    "players_api_error":  "API помилка:",
+
+    # Kernels
+    "kernels_type":      "Тип:",
+    "kernels_fetch":     "🔍 Отримати список",
+    "kernels_dest":      "Папка збереження...",
+    "kernels_browse":    "📁 Вибрати",
+    "kernels_download":  "⬇ Завантажити ядро",
+    "kernels_fetching":  "Отримую список...",
+    "kernels_found":     "Знайдено версій:",
+    "kernels_none":      "Версій не знайдено",
+    "kernels_saved":     "Ядро завантажено:",
+    "kernels_select":    "Оберіть версію зі списку",
+    "kernels_no_dest":   "Вкажіть папку для збереження",
+    "kernels_downloading": "Завантаження...",
+    "kernels_error":     "Помилка завантаження:",
+    "kernels_fetch_error": "Помилка отримання ядер:",
+    "kernels_fetch_start": "Отримую список ядер:",
+
+    # Mods/Plugins section
+    "mods_title":        "Моди / Плагіни / Датапаки",
+    "mods_search_ph":    "Пошук... (назва або slug)",
+    "mods_search_btn":   "🔍 Шукати",
+    "mods_source":       "Джерело:",
+    "mods_type":         "Тип:",
+    "mods_server_dir":   "Папка сервера:",
+    "mods_install":      "⬇ Встановити",
+    "mods_open_folder":  "📁 Відкрити папку",
+    "mods_installing":   "Встановлення...",
+    "mods_installed":    "Встановлено:",
+    "mods_error":        "Помилка:",
+    "mods_select":       "Оберіть мод зі списку",
+    "mods_no_dir":       "Вкажіть папку сервера",
+    "mods_searching":    "Пошук...",
+    "mods_no_results":   "Нічого не знайдено",
+    "mods_results":      "Результатів:",
+
+    # Properties
+    "props_load":        "📂 Завантажити server.properties",
+    "props_save":        "💾 Зберегти",
+    "props_saved":       "Збережено:",
+    "props_loaded":      "Завантажено:",
+
+    # Wiki
+    "wiki_articles":     "Статті",
+
+    # Settings
+    "settings_title":    "Налаштування",
+    "settings_ui_group": "Інтерфейс",
+    "settings_lang":     "Мова:",
+    "settings_theme":    "Тема:",
+    "settings_theme_dark":  "Темна",
+    "settings_theme_light": "Світла",
+    "settings_font_size":"Розмір шрифту:",
+    "settings_accent":   "Акцентний колір:",
+    "settings_accent_green":  "🟢 Зелений",
+    "settings_accent_blue":   "🔵 Синій",
+    "settings_accent_purple": "🟣 Фіолетовий",
+    "settings_accent_orange": "🟠 Помаранчевий",
+    "settings_java_group": "Java",
+    "settings_java_path": "Шлях до Java:",
+    "settings_java_browse": "📁",
+    "settings_java_detect": "🔍 Автовизначення",
+    "settings_save":     "💾 Зберегти налаштування",
+    "settings_saved":    "Налаштування збережено!",
+    "settings_restart":  "Деякі зміни вступлять в силу після перезапуску.",
+    "settings_playit_group": "Playit.gg",
+    "settings_playit_path": "Шлях до playit.exe:",
+    "settings_playit_browse": "📁",
+    "settings_playit_launch": "▶ Запустити Playit",
+    "settings_playit_site":   "🌐 Сайт",
+
+    # Dialogs
+    "dlg_ok":       "OK",
+    "dlg_cancel":   "Скасувати",
+    "dlg_yes":      "Так",
+    "dlg_no":       "Ні",
+    "dlg_warning":  "Увага",
+    "dlg_error":    "Помилка",
+    "dlg_confirm":  "Підтвердження",
+    "dlg_input":    "Введіть дані",
+    "dlg_exit":     "Сервер ще працює. Зупинити і вийти?",
+    "dlg_del":      "Видалити?",
+    "dlg_del_article": "Видалити цю статтю?",
+    "dlg_del_player":  "Видалити гравця зі списку?",
+
+    # Misc
+    "browse":       "📁 Вибрати",
+    "no_dir":       "Директорія не вказана або не існує",
+}
